@@ -1,0 +1,16 @@
+{
+    "require": {
+        "php-amqplib/php-amqplib": "^2.11",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "application\\controllers",
+            "interfaces\\": "application\\interfaces",
+            "core\\": "application\\core"
+        },
+        "files": [
+            "application/config/Rabbit_config.php"
+        ]
+    }
+}
