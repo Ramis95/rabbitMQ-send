@@ -9,7 +9,6 @@ register_shutdown_function('catchFatalErrors'); // Ловим ошибки
 $send = new MessageController();
 $send->run();
 
-
 function catchFatalErrors()
 {
     $error = error_get_last();
